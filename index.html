@@ -1,0 +1,91 @@
+<!-- 
+ h1 - h6 - heading
+ p - paragraph
+ 1.<a href=""></a> - đây là thẻ đường link,
+                    để "" thì tải lại trang.
+                    "#" bắn lên đầu trang,
+                    "tel:" thì chuyển hướng đến 1 ứng dụng gọi điện
+                    "mailto:" chuyển hướng đến 1 ứng dụng gửi mail 
+                    target=blank thì mở lại trang trong tab mới
+ 2.<img src="" alt=""> - đây là thẻ ảnh,alt đằng sau là khi thẻ lỗi thì sẽ hiện chữ
+                        dùng ./ cùng cấp, ../ thì trên 1 cấp
+ 3.ul - thẻ danh sách ko có thứ tự
+   ol - thẻ danh sách có thứ tự kiểu dòng đánh số thứ tự
+        ol thêm reversed(đảo ngược)
+        ol thêm type (dạng chữ ,số ,la mã)
+   li - thẻ list item
+ 4.table - là thẻ bảng
+   những thẻ liên quan table: thead,th,tbody,tr,td.
+   mỗi cái tr là 1 table around là 1 dòng, nhiều dòng thì copy tr.
+ 5.input- thẻ tạo ra textbox - checkbox - radio...
+ 6.button - tạo nút
+ 7.div - tạo khối bao quanh các phần tử
+ 8.br - thẻ break ngắt dòng
+ 9.hr - thẻ kẻ 1 đường ngang dòng
+ 10.b - bold thẻ in đậm
+ 11.i - italic thẻ in nghiêng
+ 12.u - underline thẻ gạch chân (có thể lồng thẻ b,i,u với nhau)
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F* - SHOP</title>
+  </head>
+
+  <body>
+    <h1 title="đây là tiêu đề">Cách yêu nước sáng tạo và độc đáo của gen Z</h1>
+    <!-- title kia là attribute là thuộc tính, có thể là cái khác như style, on click ... -->
+    <div>
+      <input type="radio">
+      <input type="radio">
+      <input type="radio">
+    </div>
+
+    <button>đăng kí</button>
+    <h2>Nằm trong bộ sưu tập mang tên Vinh quang Việt Nam, 
+      gần <b>20 mẫu sản phẩm thủ</b> công sơn mài đã được các họa sĩ trẻ nghiên cứu, 
+      sáng tạo trong 4 tháng để ra mắt vào đúng dịp <i>kỷ niệm 80 năm Cách mạng Tháng Tám</i> thành công và<u> Quốc khánh 2/9</u>.</h2>
+
+    <p>Những sản phẩm <b>nhỏ bé</b> nhưng mang trong đó là ước vọng trong veo trẻ thơ<br>
+      , sự biết ơn, lòng yêu nước của thế hệ trẻ tới những người đã và đang bảo vệ,<hr>
+       xây dựng và gìn giữ bình yên cho Tổ quốc, để tiếp nối truyền thống, “viết tiếp câu chuyện hòa bình” và chắp cánh cho những giấc mơ Việt Nam.</p>
+    <h3>BÀI VIẾT LIÊN QUAN</h3>
+
+    <ul>
+      <li>Những góc đẹp tuyệt đỉnh để xem diễu binh A80</li>
+      <li>Những khí tài 'khủng' nhất của Viettel tham gia diễu binh A80</li>
+      <li>Nền tảng số “A80 - Tự hào Việt Nam” đã được tích hợp vào iHanoi</li>
+    </ul>
+    <ol>
+      <li>Những góc đẹp tuyệt đỉnh để xem diễu binh A80</li>
+      <li>Những khí tài 'khủng' nhất của Viettel tham gia diễu binh A80</li>
+      <li>Nền tảng số “A80 - Tự hào Việt Nam” đã được tích hợp vào iHanoi</li>
+    </ol>
+    <div>
+      <table>
+      <thead>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Địa chỉ</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Toàn</td>
+          <td>Hà Nội</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Toàn</td>
+          <td>Hà Nội</td>
+        </tr>
+
+      </tbody>
+      </table>
+      <a href="https://fullstack.edu.vn">Đi tới trang học f8</a>
+    </div>
+  </body>
+</html>
